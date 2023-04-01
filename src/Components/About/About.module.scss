@@ -1,0 +1,19 @@
+.About{
+  background-color: var(--secColor);
+  color: var(--whiteColor);
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  .div{
+    .p{
+      width: 75%;
+      @media (max-width:991px) {
+        width: 100%;
+      }
+    }
+  }
+  .left{
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,24 @@
+.cardx {
+  position: relative;
+  cursor: pointer;
+}
+.cardx:hover::after {
+  opacity: 1;
+}
+.cardx::after {
+  content: "+";
+  color: var(--whiteColor);
+  background: var(--secColor75);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 6rem;
+  font-weight: 900;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}/*# sourceMappingURL=Portfolio.module.css.map */

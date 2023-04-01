@@ -1,0 +1,15 @@
+.Home {
+  background-color: var(--secColor);
+  color: var(--whiteColor);
+  min-height: 100vh;
+  display: flex;
+}
+.Home .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Home .container .avatarx {
+  max-width: 15rem;
+}/*# sourceMappingURL=Home.module.css.map */

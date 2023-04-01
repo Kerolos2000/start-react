@@ -1,0 +1,15 @@
+.before {
+  left: 0;
+  transform: translate(-1rem, -50%);
+}
+
+.after {
+  right: 0;
+  transform: translate(1rem, -50%);
+}
+
+.before,
+.after {
+  width: 5rem;
+  height: 5px;
+}/*# sourceMappingURL=SectionHeader.module.css.map */

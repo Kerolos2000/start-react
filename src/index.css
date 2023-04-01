@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+:root {
+  --mainColor: #2c3e50;
+  --secColor75: #1abc9cbf;
+  --secColor: #1abc9c;
+  --secColorDark: #159279;
+  --thirdColor: #2c3e50;
+  --whiteColor: #ffffff;
+}
+body {
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.active {
+  color: #fff !important;
+  background-color: #1abc9c;
+  border-radius: 0.5rem;
+}
+
+.white {
+  color: var(--whiteColor);
+}
+
+.main {
+  color: var(--mainColor);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--secColor);
+}
+
+.swal2-popup.swal2-modal.swal2-show {
+  width: 65vw;
+}
+@media (max-width: 991px) {
+  .swal2-popup.swal2-modal.swal2-show {
+    width: auto;
+  }
+}
+img.swal2-image {
+  max-width: 50vw;
+}
+@media (max-width: 991px) {
+  img.swal2-image {
+    max-width: 80vw;
+  }
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: var(--secColor);
+}
+.swal2-styled.swal2-confirm:focus {
+  box-shadow: none;
+}

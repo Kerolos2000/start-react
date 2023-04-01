@@ -1,0 +1,33 @@
+.navbar{
+  background-color: var(--mainColor);
+  .navbar{
+    .logo{
+      color: var(--whiteColor);
+    }
+    .navbar_toggler{
+      color: var(--whiteColor);
+      box-shadow: none;
+      border: 2px solid var(--whiteColor);
+    }
+    .navbarSupportedContent{
+      .navbar_nav{
+        .nav_item{
+          margin: 0 0.5rem;
+          @media (max-width:991px) {
+            margin: 0.8rem 0;
+          }
+          .nav_link{
+            color: var(--whiteColor);
+            transition: 0.5s;
+            text-transform: uppercase;
+            padding: 1rem 0.7rem;
+
+            &:hover{
+              color: var(--secColor);
+            }
+          }
+        }
+      }
+    }
+  }
+}

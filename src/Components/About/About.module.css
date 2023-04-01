@@ -1,0 +1,19 @@
+.About {
+  background-color: var(--secColor);
+  color: var(--whiteColor);
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+}
+.About .div .p {
+  width: 75%;
+}
+@media (max-width: 991px) {
+  .About .div .p {
+    width: 100%;
+  }
+}
+.About .left {
+  display: flex;
+  justify-content: flex-end;
+}/*# sourceMappingURL=About.module.css.map */
